@@ -1,0 +1,164 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<title>Student Dashboard</title>
+
+<style>
+body {
+    font-family: Arial;
+    background: #FFF3E0;
+    margin: 0;
+}
+
+header {
+    background: #123B5D;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.container {
+    margin: 20px;
+}
+
+.card {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    border-left: 5px solid #F39C12;
+}
+
+h3 {
+    color: #123B5D;
+}
+
+table, th, td {
+    border: 1px solid #B0BEC5;
+    border-collapse: collapse;
+    padding: 12px;
+    text-align: center;
+}
+
+table {
+    width: 100%;
+}
+
+th {
+    background: #00A8A8;
+    color: white;
+}
+
+tr {
+    background: #E0F7FA;
+}
+
+.progress {
+    background: #CFD8DC;
+    border-radius: 10px;
+    height: 20px;
+}
+
+.bar {
+    background: #00A86B;
+    height: 20px;
+    border-radius: 10px;
+    text-align: center;
+    color: white;
+}
+
+footer {
+    background: #123B5D;
+    color: white;
+    text-align: center;
+    padding: 12px;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+    <h1>Student Academic Dashboard</h1>
+    <p>Welcome to Your Dashboard!</p>
+</header>
+
+<div class="container">
+
+    <div class="card">
+        <h3>Student Details</h3>
+        <p><b>Name:</b> Hemanth</p>
+        <p><b>Roll No:</b> 26000928</p>
+        <p><b>Branch:</b> CSM-2</p>
+    </div>
+
+    <div class="card">
+        <h3>Semester Results</h3>
+
+        <table>
+            <tr>
+                <th>Subject</th>
+                <th>Marks</th>
+                <th>Grade</th>
+            </tr>
+
+            <tr>
+                <td>Web Development</td>
+                <td>85</td>
+                <td>A</td>
+            </tr>
+
+            <tr>
+                <td>Professional Communication</td>
+                <td>90</td>
+                <td>A+</td>
+            </tr>
+
+            <tr>
+                <td>Python</td>
+                <td>78</td>
+                <td>B+</td>
+            </tr>
+
+            <tr>
+                <td>CM</td>
+                <td>80</td>
+                <td>A</td>
+            </tr>
+
+            <tr>
+                <td>CTLR</td>
+                <td>90</td>
+                <td>A</td>
+            </tr>
+
+            <tr>
+                <td colspan="2"><b>Total</b></td>
+                <td><b>423/500</b></td>
+            </tr>
+        </table>
+    </div>
+
+    <div class="card">
+        <h3>Attendance</h3>
+
+        <p>Web Development</p>
+        <div class="progress">
+            <div class="bar" style="width:85%">85%</div>
+        </div>
+
+        <p>Python</p>
+        <div class="progress">
+            <div class="bar" style="width:85%">85%</div>
+        </div>
+    </div>
+
+</div>
+
+<footer>
+    <p>© 2026 Student Dashboard</p>
+</footer>
+
+</body>
+</html>
